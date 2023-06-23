@@ -1,0 +1,81 @@
+body {
+    background-color: red;
+    color: white;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      box-align:center;
+      text-align:center;
+      height: 100vh;
+      margin: 0;
+  }
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  body {
+    font-size: 48px;
+  }
+
+  h1 {
+    font-size: 72px;
+  }
+
+  p {
+    font-size: 50px;
+  }
+  .container {
+    max-width: 500px;
+    width: 100%;
+  }
+  a {
+    color: #00ffff; /* Change link color to cyan */
+  }
+  
+  #img-div {
+    position: relative;
+    display: inline-block;
+    width: 3600;
+  }
+ 
+.image-container {
+    position: relative;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   width:3200;
+  }
+  .background-image {
+    width: 1600px; /* Adjust the width as needed */
+    height: 1500px; /* Maintain the aspect ratio */
+  }
+  
+  .overlay-image {
+    position: absolute;
+    bottom: 100;
+    left: 100;
+    z-index: 100;
+    width: 1600px; /* Adjust image size to be smaller by 1.5 */
+    filter: opacity(0.9); /* Make the image semi-transparent */;
+    mix-blend-mode: lighten;
+    align-items: center;
+  }
+  
+  #img-caption {
+    position: absolute;
+    border-bottom: 1000%;
+    left: 150%;
+    transform: translate(50%, 50%);
+    color: white;
+    text-align: center;
+  }
+  
+  #tribute-info {
+    margin-top: 50px;
+    text-align: left;
+    balign align-items: center;
+  }
+  
